@@ -1,12 +1,12 @@
 <%= render 'layouts/navbar' %>
 
-<h2 style="text-align: center;">#<%= @topic.name %> 的内容</h2>
+<h2 style="text-align: center;">话题#<%= @topic.name %> 的内容</h2>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <% if @paginated_posts.present? %>
     <% @paginated_posts.each do |post| %>
-      <div style="margin: 16px 0; text-align: center; max-width: 500px;">
-        <img src="<%= post.image_url %>" width="300" /><br>
+        <div style="margin: 16px 0; text-align: center; max-width: 500px;">
+        <%= image_tag("/proxy/image?url=#{CGI.escape(post.image_url)}") if post.image_url.present? %>
         <strong><%= post.username %></strong><br>
         <p><%= post.caption %></p>
         <small><%= post.timestamp %></small>
@@ -28,4 +28,4 @@
 </div>
 
 <!-- 可选：调试数据 -->
-<%#= debug @paginated_posts %>
+<%= debug @paginated_posts %>

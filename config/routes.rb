@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   root "home#index"
   get "/topics/:id", to: "topics#show", as: :topic
+  get "/proxy/image", to: "proxy#image"
 end

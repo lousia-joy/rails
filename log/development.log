@@ -721,3 +721,822 @@ Completed 200 OK in 21ms (Views: 6.5ms | GC: 0.0ms)
 [dotenv] Set [36mRAPIDAPI_KEY[0m
 [dotenv] Loaded [33m.env[0m
 [dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 07:33:03 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | GC: 0.0ms)
+Completed 200 OK in 42ms (Views: 13.0ms | GC: 0.0ms)
+
+
+Started GET "/assets/application-d8a8613a.js" for 178.128.210.118 at 2025-07-03 07:33:04 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/favicon.ico" for 178.128.210.118 at 2025-07-03 07:33:04 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:33:09 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 2.6ms | GC: 0.0ms)
+
+
+Started GET "/topics/afeaf%20dfa" for 178.128.210.118 at 2025-07-03 07:33:13 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "afeaf dfa"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 07:35:48 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:35:52 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | GC: 0.5ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.5ms)
+Completed 200 OK in 15ms (Views: 3.1ms | GC: 0.5ms)
+
+
+Started GET "/topics/afeaf%20dfa" for 178.128.210.118 at 2025-07-03 07:35:55 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "afeaf dfa"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.0ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 07:37:01 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 13.6ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:37:06 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 11ms (GC: 0.0ms)
+
+
+  
+NoMethodError (undefined method 'put' for an instance of TopicsController):
+  
+app/controllers/topics_controller.rb:7:in 'TopicsController#show'
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:37:15 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/afeaf%20dfa" for 178.128.210.118 at 2025-07-03 07:38:08 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "afeaf dfa"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 4.7ms | GC: 0.9ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:38:11 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 2.2ms | GC: 0.0ms)
+
+
+Started GET "/topics/aa" for 178.128.210.118 at 2025-07-03 07:39:12 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "aa"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.2ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | GC: 0.6ms)
+Completed 200 OK in 16ms (Views: 4.3ms | GC: 0.6ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:39:25 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.0ms | GC: 0.0ms)
+
+
+Started GET "/topics/funnymemes" for 178.128.210.118 at 2025-07-03 07:54:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "funnymemes"}
+Completed 500 Internal Server Error in 16ms (GC: 0.0ms)
+
+
+  
+NameError (undefined local variable or method 'raw_posts' for an instance of TopicsController):
+  
+app/controllers/topics_controller.rb:8:in 'TopicsController#show'
+Started GET "/topics/funnymemes" for 178.128.210.118 at 2025-07-03 07:55:23 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "funnymemes"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 3.8ms | GC: 1.2ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 07:55:27 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.3ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/topics/funnymemes" for 178.128.210.118 at 2025-07-03 08:00:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "funnymemes"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.4ms | GC: 1.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 1.0ms)
+Completed 200 OK in 16ms (Views: 4.5ms | GC: 1.0ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 08:00:55 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | GC: 0.0ms)
+Completed 200 OK in 41ms (Views: 13.1ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:00:59 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 2.9ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat?page=2" for 178.128.210.118 at 2025-07-03 08:01:45 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"page" => "2", "id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.4ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat?page=1" for 178.128.210.118 at 2025-07-03 08:02:51 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"page" => "1", "id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 41ms (Views: 3.0ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 08:02:57 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/funnymemes" for 178.128.210.118 at 2025-07-03 08:03:00 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "funnymemes"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 08:03:04 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:05:49 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | GC: 0.0ms)
+Completed 200 OK in 22ms (Views: 5.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:08:19 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.2ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.6ms)
+Completed 200 OK in 17ms (Views: 4.3ms | GC: 0.6ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:08:48 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 3.6ms | GC: 0.2ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:10:18 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.8ms | GC: 0.2ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:10:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 4.0ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:12:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.7ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:13:08 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 22ms (Views: 6.4ms | GC: 1.1ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:13:35 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.6ms | GC: 0.2ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:16:30 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 13ms (GC: 0.2ms)
+
+
+  
+NoMethodError (undefined method 'posts=' for nil):
+  
+app/controllers/topics_controller.rb:12:in 'TopicsController#show'
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:17:39 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 3.8ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 08:18:16 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/funnymemes" for 178.128.210.118 at 2025-07-03 08:18:19 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "funnymemes"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 08:18:43 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 08:18:46 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 2.1ms | GC: 2.8ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 09:56:41 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | GC: 0.0ms)
+Completed 200 OK in 50ms (Views: 18.2ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 09:56:44 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 19ms (GC: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/parsers/instagram_json_parser.rb:6:in 'Array#dig'
+app/parsers/instagram_json_parser.rb:6:in 'InstagramJsonParser.parse'
+app/controllers/topics_controller.rb:7:in 'TopicsController#show'
+Started GET "/" for 178.128.210.118 at 2025-07-03 09:57:15 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 09:59:38 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 13ms (GC: 0.0ms)
+
+
+  
+NoMethodError (undefined method '[]' for an instance of Post):
+  
+app/controllers/topics_controller.rb:14:in 'block in TopicsController#show'
+app/controllers/topics_controller.rb:12:in 'Array#map'
+app/controllers/topics_controller.rb:12:in 'TopicsController#show'
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:03:39 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | GC: 1.6ms)
+Completed 200 OK in 16ms (Views: 5.1ms | GC: 1.6ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:03:42 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:04:11 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 200 OK in 23ms (Views: 4.3ms | GC: 1.5ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:06:14 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 13.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:06:19 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 3.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:14:23 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 3.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | GC: 0.0ms)
+Completed 200 OK in 23ms (Views: 7.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:14:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 3.0ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:14:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:36:06 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 12ms (GC: 0.0ms)
+
+
+  
+Zeitwerk::NameError (expected file /workspaces/app/app/parsers/instagram_json_parser.rb to define constant InstagramJsonParser, but didn't):
+  
+app/controllers/topics_controller.rb:7:in 'TopicsController#show'
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:37:54 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 3.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | GC: 0.0ms)
+Completed 200 OK in 18ms (Views: 6.0ms | GC: 0.7ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514970931_17972107493909122_2498619790734799583_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253D4NJG6W6XX-4Q7kNvwEC-p1D%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDE4ODI0MDcwOTc1NQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfNl0UFvQmMpeRDDM4HWaxo4oI6qY-3TyMJZ1e3SgESaow%2526oe%253D686C1E10%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:37:55 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514970931_17972107493909122_2498619790734799583_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D4NJG6W6XX-4Q7kNvwEC-p1D%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE4ODI0MDcwOTc1NQ%253D%253D.3-ccb7-5%26oh%3D00_AfNl0UFvQmMpeRDDM4HWaxo4oI6qY-3TyMJZ1e3SgESaow%26oe%3D686C1E10%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 43ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514669127_17987685758832574_9078753386802504525_n.jpg%253Fstp%253Ddst-jpg_e35_s1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253DPog6RnM-ErcQ7kNvwEIhAd2%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDE5MDc0Nzk0Nzg3OA%25253D%25253D.3-ccb7-5%2526oh%253D00_AfPR9T72yMTZAxvSulDcSDRPt00CpWkQFNgOf5otAT4B4w%2526oe%253D686C3AC2%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:37:55 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514669127_17987685758832574_9078753386802504525_n.jpg%3Fstp%3Ddst-jpg_e35_s1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DPog6RnM-ErcQ7kNvwEIhAd2%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE5MDc0Nzk0Nzg3OA%253D%253D.3-ccb7-5%26oh%3D00_AfPR9T72yMTZAxvSulDcSDRPt00CpWkQFNgOf5otAT4B4w%26oe%3D686C3AC2%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 25ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F504727434_18035698268653372_7306396996688817108_n.webp%253Fstp%253Ddst-jpg_e15_fr_p1080x1080_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D104%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253Di0A17CeM5-YQ7kNvwHfPnRo%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAyNzA2ODI2MDg0MQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfM5_iN2Y0ozr-LK_5xhOfZ9o6rcp4QsRUGesDaORLUBSQ%2526oe%253D686C4112%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:37:55 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F504727434_18035698268653372_7306396996688817108_n.webp%3Fstp%3Ddst-jpg_e15_fr_p1080x1080_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D104%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3Di0A17CeM5-YQ7kNvwHfPnRo%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAyNzA2ODI2MDg0MQ%253D%253D.3-ccb7-5%26oh%3D00_AfM5_iN2Y0ozr-LK_5xhOfZ9o6rcp4QsRUGesDaORLUBSQ%26oe%3D686C4112%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 14ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp1-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514122977_17862085542429691_5332722143311225970_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp1-1.cdninstagram.com%2526_nc_cat%253D107%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253D5C4yGER429MQ7kNvwEJa2Qk%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAwODA1MDkzNDA0OA%25253D%25253D.3-ccb7-5%2526oh%253D00_AfN5RO-OJDJP4Yx0R8LRH-CJfjCzJjrM15tfN9nXt3IjsQ%2526oe%253D686C1120%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:37:56 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp1-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514122977_17862085542429691_5332722143311225970_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp1-1.cdninstagram.com%26_nc_cat%3D107%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D5C4yGER429MQ7kNvwEJa2Qk%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAwODA1MDkzNDA0OA%253D%253D.3-ccb7-5%26oh%3D00_AfN5RO-OJDJP4Yx0R8LRH-CJfjCzJjrM15tfN9nXt3IjsQ%26oe%3D686C1120%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 18ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F516399609_17989946855818990_6548597410249996351_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253DsyQH4HqF9LwQ7kNvwGLCRYF%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAxMjI4MDAzMjk3MQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfODBOSXBJ0wXEDbJH9J5opk6HteQMHTYIJcJeXT2whhQg%2526oe%253D686C13C3%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:37:56 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F516399609_17989946855818990_6548597410249996351_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DsyQH4HqF9LwQ7kNvwGLCRYF%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAxMjI4MDAzMjk3MQ%253D%253D.3-ccb7-5%26oh%3D00_AfODBOSXBJ0wXEDbJH9J5opk6HteQMHTYIJcJeXT2whhQg%26oe%3D686C13C3%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 12ms (GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:39:00 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.5ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 10:39:29 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 13.7ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:39:33 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 4.2ms | GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514970931_17972107493909122_2498619790734799583_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253D4NJG6W6XX-4Q7kNvwEC-p1D%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDE4ODI0MDcwOTc1NQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfNl0UFvQmMpeRDDM4HWaxo4oI6qY-3TyMJZ1e3SgESaow%2526oe%253D686C1E10%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:39:33 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514970931_17972107493909122_2498619790734799583_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D4NJG6W6XX-4Q7kNvwEC-p1D%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE4ODI0MDcwOTc1NQ%253D%253D.3-ccb7-5%26oh%3D00_AfNl0UFvQmMpeRDDM4HWaxo4oI6qY-3TyMJZ1e3SgESaow%26oe%3D686C1E10%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 15ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514669127_17987685758832574_9078753386802504525_n.jpg%253Fstp%253Ddst-jpg_e35_s1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253DPog6RnM-ErcQ7kNvwEIhAd2%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDE5MDc0Nzk0Nzg3OA%25253D%25253D.3-ccb7-5%2526oh%253D00_AfPR9T72yMTZAxvSulDcSDRPt00CpWkQFNgOf5otAT4B4w%2526oe%253D686C3AC2%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:39:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514669127_17987685758832574_9078753386802504525_n.jpg%3Fstp%3Ddst-jpg_e35_s1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DPog6RnM-ErcQ7kNvwEIhAd2%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE5MDc0Nzk0Nzg3OA%253D%253D.3-ccb7-5%26oh%3D00_AfPR9T72yMTZAxvSulDcSDRPt00CpWkQFNgOf5otAT4B4w%26oe%3D686C3AC2%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 11ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F504727434_18035698268653372_7306396996688817108_n.webp%253Fstp%253Ddst-jpg_e15_fr_p1080x1080_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D104%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253Di0A17CeM5-YQ7kNvwHfPnRo%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAyNzA2ODI2MDg0MQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfM5_iN2Y0ozr-LK_5xhOfZ9o6rcp4QsRUGesDaORLUBSQ%2526oe%253D686C4112%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:39:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F504727434_18035698268653372_7306396996688817108_n.webp%3Fstp%3Ddst-jpg_e15_fr_p1080x1080_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D104%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3Di0A17CeM5-YQ7kNvwHfPnRo%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAyNzA2ODI2MDg0MQ%253D%253D.3-ccb7-5%26oh%3D00_AfM5_iN2Y0ozr-LK_5xhOfZ9o6rcp4QsRUGesDaORLUBSQ%26oe%3D686C4112%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 22ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp2-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F516399609_17989946855818990_6548597410249996351_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp2-1.cdninstagram.com%2526_nc_cat%253D110%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253DsyQH4HqF9LwQ7kNvwGLCRYF%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAxMjI4MDAzMjk3MQ%25253D%25253D.3-ccb7-5%2526oh%253D00_AfODBOSXBJ0wXEDbJH9J5opk6HteQMHTYIJcJeXT2whhQg%2526oe%253D686C13C3%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:39:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F516399609_17989946855818990_6548597410249996351_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DsyQH4HqF9LwQ7kNvwGLCRYF%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAxMjI4MDAzMjk3MQ%253D%253D.3-ccb7-5%26oh%3D00_AfODBOSXBJ0wXEDbJH9J5opk6HteQMHTYIJcJeXT2whhQg%26oe%3D686C13C3%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 23ms (GC: 0.0ms)
+
+
+Started GET "/proxy_image?url=https%253A%252F%252Fscontent-mxp1-1.cdninstagram.com%252Fv%252Ft51.2885-15%252F514122977_17862085542429691_5332722143311225970_n.jpg%253Fstp%253Ddst-jpg_e35_p1080x1080_sh0.08_tt6%2526_nc_ht%253Dscontent-mxp1-1.cdninstagram.com%2526_nc_cat%253D107%2526_nc_oc%253DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%2526_nc_ohc%253D5C4yGER429MQ7kNvwEJa2Qk%2526_nc_gid%253D6G_sJ1k9a4Dmbhu8tMcLZw%2526edm%253DAA0rjkIBAAAA%2526ccb%253D7-5%2526ig_cache_key%253DMzY2ODQ3NDAwODA1MDkzNDA0OA%25253D%25253D.3-ccb7-5%2526oh%253D00_AfN5RO-OJDJP4Yx0R8LRH-CJfjCzJjrM15tfN9nXt3IjsQ%2526oe%253D686C1120%2526_nc_sid%253D49ed71" for 178.128.210.118 at 2025-07-03 10:39:34 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ProxyController#image as HTML
+  Parameters: {"url" => "https%3A%2F%2Fscontent-mxp1-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514122977_17862085542429691_5332722143311225970_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp1-1.cdninstagram.com%26_nc_cat%3D107%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D5C4yGER429MQ7kNvwEJa2Qk%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAwODA1MDkzNDA0OA%253D%253D.3-ccb7-5%26oh%3D00_AfN5RO-OJDJP4Yx0R8LRH-CJfjCzJjrM15tfN9nXt3IjsQ%26oe%3D686C1120%26_nc_sid%3D49ed71"}
+Completed 400 Bad Request in 23ms (GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 10:42:30 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 16ms (Views: 4.7ms | GC: 0.0ms)
+
+
+Started GET "/proxy/image?url=https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514669127_17987685758832574_9078753386802504525_n.jpg%3Fstp%3Ddst-jpg_e35_s1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DPog6RnM-ErcQ7kNvwEIhAd2%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE5MDc0Nzk0Nzg3OA%253D%253D.3-ccb7-5%26oh%3D00_AfPR9T72yMTZAxvSulDcSDRPt00CpWkQFNgOf5otAT4B4w%26oe%3D686C3AC2%26_nc_sid%3D49ed71" for 178.128.210.118 at 2025-07-03 10:42:30 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/image"):
+  
+Started GET "/proxy/image?url=https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514970931_17972107493909122_2498619790734799583_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D4NJG6W6XX-4Q7kNvwEC-p1D%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDE4ODI0MDcwOTc1NQ%253D%253D.3-ccb7-5%26oh%3D00_AfNl0UFvQmMpeRDDM4HWaxo4oI6qY-3TyMJZ1e3SgESaow%26oe%3D686C1E10%26_nc_sid%3D49ed71" for 178.128.210.118 at 2025-07-03 10:42:30 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/image"):
+  
+Started GET "/proxy/image?url=https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F504727434_18035698268653372_7306396996688817108_n.webp%3Fstp%3Ddst-jpg_e15_fr_p1080x1080_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D104%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3Di0A17CeM5-YQ7kNvwHfPnRo%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAyNzA2ODI2MDg0MQ%253D%253D.3-ccb7-5%26oh%3D00_AfM5_iN2Y0ozr-LK_5xhOfZ9o6rcp4QsRUGesDaORLUBSQ%26oe%3D686C4112%26_nc_sid%3D49ed71" for 178.128.210.118 at 2025-07-03 10:42:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/image"):
+  
+Started GET "/proxy/image?url=https%3A%2F%2Fscontent-mxp2-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F516399609_17989946855818990_6548597410249996351_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp2-1.cdninstagram.com%26_nc_cat%3D110%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3DsyQH4HqF9LwQ7kNvwGLCRYF%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAxMjI4MDAzMjk3MQ%253D%253D.3-ccb7-5%26oh%3D00_AfODBOSXBJ0wXEDbJH9J5opk6HteQMHTYIJcJeXT2whhQg%26oe%3D686C13C3%26_nc_sid%3D49ed71" for 178.128.210.118 at 2025-07-03 10:42:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/image"):
+  
+Started GET "/proxy/image?url=https%3A%2F%2Fscontent-mxp1-1.cdninstagram.com%2Fv%2Ft51.2885-15%2F514122977_17862085542429691_5332722143311225970_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent-mxp1-1.cdninstagram.com%26_nc_cat%3D107%26_nc_oc%3DQ6cZ2QFm_OH56q-M-fbNzPphRL821vzLn8vkpk3M7dad6zwDD0C9ADZqGFiTOBgBACt0Vac%26_nc_ohc%3D5C4yGER429MQ7kNvwEJa2Qk%26_nc_gid%3D6G_sJ1k9a4Dmbhu8tMcLZw%26edm%3DAA0rjkIBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY2ODQ3NDAwODA1MDkzNDA0OA%253D%253D.3-ccb7-5%26oh%3D00_AfN5RO-OJDJP4Yx0R8LRH-CJfjCzJjrM15tfN9nXt3IjsQ%26oe%3D686C1120%26_nc_sid%3D49ed71" for 178.128.210.118 at 2025-07-03 10:42:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/proxy/image"):
+  
