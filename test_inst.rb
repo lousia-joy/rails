@@ -30,11 +30,12 @@ def fetch_instagram_posts(tag, limit = 5)
   end
 end
 
-# 测试获取 #cat 话题的前 10 条内容
-posts = fetch_instagram_posts('cat', 5)
+# 测试获取 #cat 话题的前  条内容
+posts = fetch_instagram_posts('funnymemes', 1)
+puts posts
 
 # 如果需要保存到文件
 if posts
-  File.write("instagram_cat_posts.json", JSON.pretty_generate(posts))
+  File.write("instagram_funnymemes_posts.json", JSON.pretty_generate(posts))
   puts "结果已保存到 instagram_cat_posts.json"
 end
