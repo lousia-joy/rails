@@ -1,8 +1,9 @@
 class TopicsController < ApplicationController
   def show
     topic_name = params[:id]
-
-    file_path = Rails.root.join("lib", "data", "instagram_#{topic_name}_posts.json")
+    # 转成字符串，用正则表达式移除不安全字符，再读取预设json文件
+    safe_id = File.basename(params[:id].to_s.gsub(/[^0-9a-z_]/i, ""))
+    file_path = Rails.root.join("lib", "data", "instagram_#{safe_id}_posts.json")
     raw_posts = File.exist?(file_path) ? InstagramJsonParser.parse(file_path) : []
 
     @topic = Topic.new(id: 1, name: topic_name)

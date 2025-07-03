@@ -15,10 +15,12 @@ def fetch_instagram_posts(tag, limit = 5)
   response = http.request(request)
 
   if response.code == '200'
-    data = JSON.parse(response.body)
 
     # 提取前 N 条结果
-    limited_data = data.first(limit)
+    parsed = JSON.parse(response.body)
+    posts_array = parsed['data'] || parsed['items'] || parsed.values.find { |v| v.is_a?(Array) }
+
+    limited_data = posts_array&.first(limit) || []
 
     puts "成功获取 #{tag} 话题的前 #{limit} 条结果:"
     puts JSON.pretty_generate(limited_data)
@@ -30,12 +32,15 @@ def fetch_instagram_posts(tag, limit = 5)
   end
 end
 
+topic = dog
 # 测试获取 #cat 话题的前  条内容
-posts = fetch_instagram_posts('funnymemes', 1)
+posts = fetch_instagram_posts('', 1)
 puts posts
 
 # 如果需要保存到文件
+
+
 if posts
-  File.write("instagram_funnymemes_posts.json", JSON.pretty_generate(posts))
-  puts "结果已保存到 instagram_cat_posts.json"
+  File.write("instagram_${filename}_posts.json", JSON.pretty_generate(posts))
+  puts "结果已保存到 instagram_${filename}_posts.json"
 end

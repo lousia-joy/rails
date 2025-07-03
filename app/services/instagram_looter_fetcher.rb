@@ -34,7 +34,7 @@ class InstagramLooterFetcher
       response = http.request(request)
       data = JSON.parse(response.read_body)
       data["hashtags"] || []
-    rescue StandardError => e
+      rescue StandardError => e
       Rails.logger.error("Hashtag search failed: #{e.message}")
       []
     end
