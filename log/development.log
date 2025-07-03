@@ -1,0 +1,717 @@
+Started GET "/" for 165.22.252.113 at 2025-07-01 03:56:45 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Redirected to https://supreme-enigma-779vqrqvjx72pr4w-3000.app.github.dev/topics/cat
+Completed 301 Moved Permanently in 5ms
+
+
+Started GET "/topics/cat" for 165.22.252.113 at 2025-07-01 03:56:46 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | GC: 0.0ms)
+Completed 200 OK in 69ms (Views: 14.0ms | GC: 0.0ms)
+
+
+Started GET "/assets/application-8b441ae0.css" for 165.22.252.113 at 2025-07-01 03:56:46 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Started GET "/" for 165.22.252.113 at 2025-07-01 03:57:07 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Redirected to https://supreme-enigma-779vqrqvjx72pr4w-3000.app.github.dev/topics/cat
+Completed 301 Moved Permanently in 0ms
+
+
+Started GET "/topics/cat" for 165.22.252.113 at 2025-07-01 03:57:07 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | GC: 0.0ms)
+Completed 200 OK in 45ms (Views: 32.2ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:07:34 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ArgumentError (Invalid route name, already in use: 'root' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+https://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:19:in 'block in <main>'
+config/routes.rb:1:in '<main>'
+Started GET "/favicon.ico" for 165.22.252.113 at 2025-07-01 04:07:37 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:16:06 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | GC: 1.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | GC: 13.6ms)
+Completed 200 OK in 57ms (Views: 25.8ms | GC: 21.5ms)
+
+
+Started GET "/topics/cat?topic=cat" for 165.22.252.113 at 2025-07-01 04:16:13 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"topic" => "cat", "id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 2.4ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:16:18 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat?topic=cat" for 165.22.252.113 at 2025-07-01 04:16:34 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"topic" => "cat", "id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.3ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:21:19 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 4.3ms | GC: 0.0ms)
+
+
+Started GET "/topics?id=cat&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:21:28 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/topics"):
+  
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:21:40 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.0ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:23:38 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.7ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:23:52 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.7ms | GC: 0.0ms)
+
+
+Started GET "/topics/id?id=cat&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:24:13 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "id", "commit" => "查看话题"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat?topic=cat" for 165.22.252.113 at 2025-07-01 04:24:27 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"topic" => "cat", "id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 15ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:29:30 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.7ms | GC: 0.0ms)
+
+
+Started GET "/topics/id?id=cat&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:29:34 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "id", "commit" => "查看话题"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:29:42 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 200 OK in 19ms (Views: 1.6ms | GC: 8.6ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:41:40 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.3ms)
+Completed 200 OK in 12ms (Views: 2.7ms | GC: 0.3ms)
+
+
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:41:46 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.2ms)
+Completed 200 OK in 11ms (Views: 1.8ms | GC: 0.2ms)
+
+
+Started GET "/topics?id=cow&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:41:54 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/topics"):
+  
+Started GET "/topics?id=cat&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:42:09 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/topics"):
+  
+Started GET "/" for 165.22.252.113 at 2025-07-01 04:45:26 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 3.5ms | GC: 0.9ms)
+
+
+Started GET "/topics/cat?topic=cat&commit=%E6%9F%A5%E7%9C%8B%E8%AF%9D%E9%A2%98" for 165.22.252.113 at 2025-07-01 04:45:31 +0000
+Cannot render console from 165.22.252.113! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"topic" => "cat", "commit" => "查看话题", "id" => "cat"}
+Completed 500 Internal Server Error in 10ms (GC: 0.0ms)
+
+
+  
+NoMethodError (undefined method 'where' for class Post):
+  
+app/controllers/topics_controller.rb:4:in 'TopicsController#show'
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 02:45:44 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | GC: 0.0ms)
+Completed 200 OK in 49ms (Views: 17.1ms | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for 178.128.210.118 at 2025-07-03 02:45:47 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 178.128.210.118 at 2025-07-03 02:45:51 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.8ms | GC: 0.5ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 02:45:57 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+Completed 500 Internal Server Error in 16ms (GC: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/parsers/instagram_json_parser.rb:11:in 'Array#dig'
+app/parsers/instagram_json_parser.rb:11:in 'InstagramJsonParser.parse'
+app/controllers/topics_controller.rb:6:in 'TopicsController#show'
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:00:36 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | GC: 0.4ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | GC: 0.4ms)
+Completed 200 OK in 17ms (Views: 4.4ms | GC: 0.4ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:00:39 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 14ms (GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method 'total_pages' for nil)
+Caused by: NoMethodError (undefined method 'total_pages' for nil)
+
+Information for: ActionView::Template::Error (undefined method 'total_pages' for nil):
+    26:   <p>暂无内容</p>
+    27: <% end %>
+    28: 
+    29: <%= paginate @posts %>
+  
+app/views/topics/show.html.erb:29
+
+Information for cause: NoMethodError (undefined method 'total_pages' for nil):
+  
+app/views/topics/show.html.erb:29
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:03:02 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 3.9ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:03:35 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:03:38 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.7ms)
+Completed 200 OK in 15ms (Views: 3.1ms | GC: 0.7ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:06:15 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 3.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:06:27 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | GC: 0.0ms)
+Completed 200 OK in 20ms (Views: 4.7ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:06:47 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:06:53 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:07:21 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 3.2ms | GC: 0.9ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:07:27 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.2ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:07:31 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:08:12 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.0ms | GC: 0.3ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:08:27 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:09:14 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 3.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:11:09 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 17ms (Views: 3.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:11:14 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.5ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:11:38 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 3.5ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:11:43 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.9ms)
+Completed 200 OK in 13ms (Views: 3.3ms | GC: 0.9ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:11:48 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 22ms (Views: 3.6ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:12:18 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.0ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | GC: 0.4ms)
+Completed 200 OK in 14ms (Views: 3.9ms | GC: 0.4ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:12:20 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:12:23 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:13:26 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 14ms (Views: 3.3ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:13:29 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.4ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:13:32 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 1.8ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:14:56 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 2.7ms | GC: 0.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | GC: 0.7ms)
+Completed 200 OK in 15ms (Views: 5.0ms | GC: 0.7ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:20:29 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | GC: 0.0ms)
+Completed 200 OK in 38ms (Views: 12.4ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:20:32 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 13ms (Views: 2.7ms | GC: 0.0ms)
+
+
+Started GET "/topics/afeaf%20dfa" for 178.128.210.118 at 2025-07-03 03:24:04 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "afeaf dfa"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 1.9ms | GC: 0.0ms)
+
+
+Started GET "/topics/cat" for 178.128.210.118 at 2025-07-03 03:24:10 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by TopicsController#show as HTML
+  Parameters: {"id" => "cat"}
+  Rendering layout layouts/application.html.erb
+  Rendering topics/show.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.0ms | GC: 0.0ms)
+  Rendered topics/show.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 12ms (Views: 2.1ms | GC: 0.0ms)
+
+
+Started GET "/" for 178.128.210.118 at 2025-07-03 03:57:41 +0000
+Cannot render console from 178.128.210.118! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layouts/_search.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 21ms (Views: 6.5ms | GC: 0.0ms)
+
+
+[dotenv] Set [36mRAPIDAPI_KEY[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m

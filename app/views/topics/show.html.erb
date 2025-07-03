@@ -1,0 +1,31 @@
+<%= render 'layouts/navbar' %>
+
+<h2 style="text-align: center;">#<%= @topic.name %> 的内容</h2>
+
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <% if @paginated_posts.present? %>
+    <% @paginated_posts.each do |post| %>
+      <div style="margin: 16px 0; text-align: center; max-width: 500px;">
+        <img src="<%= post.image_url %>" width="300" /><br>
+        <strong><%= post.username %></strong><br>
+        <p><%= post.caption %></p>
+        <small><%= post.timestamp %></small>
+      </div>
+    <% end %>
+  <% else %>
+    <p>暂无内容，请检查话题或稍后再试。</p>
+    <%= render 'layouts/search' %>
+  <% end %>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <% if @page > 1 %>
+    <%= link_to '上一页', topic_path(id: @topic.name, page: @page - 1) %>
+  <% end %>
+  <% if @topic.posts.size > @page * @per_page %>
+    <%= link_to '下一页', topic_path(id: @topic.name, page: @page + 1) %>
+  <% end %>
+</div>
+
+<!-- 可选：调试数据 -->
+<%#= debug @paginated_posts %>
