@@ -8,3 +8,32 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.post-container {
+  width: 50%; /* 页面宽度的60% */
+  margin: 32px auto; /* 上下间距，居中 */
+  padding: 16px;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(163, 164, 164, 0.3);
+  color: #000000;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #030202;
+  margin-bottom: 8px;
+}
+
+.post-caption p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  white-space: pre-line; /* 保留换行 */
+}
+
+.post-image img {
+  width: 40%;
+  height: 30%;
+  border-radius: 8px;
+}

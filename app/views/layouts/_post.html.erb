@@ -1,0 +1,16 @@
+<div class="post-container">
+  <div class="post-header">
+    <span class="post-username">user: <%= post.username %></span>
+    <span class="post-time"><%= post.timestamp.in_time_zone('Beijing').strftime('%Y-%m-%d %H:%M:%S') %></span>
+  </div>
+
+  <div class="post-caption">
+    <p><%= post.caption %></p>
+  </div>
+
+  <% if post.image_url.present? %>
+    <div class="post-image">
+      <%= image_tag("/proxy/image?url=#{CGI.escape(post.image_url)}", alt: "post image") %>
+    </div>
+  <% end %>
+</div>

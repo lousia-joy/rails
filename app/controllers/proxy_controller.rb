@@ -1,10 +1,11 @@
 require "open-uri"
-puts "Fetching image from #{params[:url]}"
+
 class ProxyController < ApplicationController
   def image
     url = params[:url]
+    puts "Fetching image from #{url}"  # ✔️ 这个位置才是对的
 
-    # 校验，防止 SSRF 攻击（你可以更严格地限制白名单）
+    # 防 SSRF（建议白名单更精确）
     unless url =~ /\Ahttps:\/\/scontent-[\w\-\.]+\.cdninstagram\.com/
       return head :forbidden
     end

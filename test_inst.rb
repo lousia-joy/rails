@@ -17,9 +17,6 @@ def fetch_instagram_posts(tag)
   if response.code == '200'
     parsed = JSON.parse(response.body)
 
-    puts "✅ 原始 API 返回结构（缩略）："
-    puts JSON.pretty_generate(parsed.slice("data")) rescue puts "❗结构不是Hash，实际为：#{parsed.class}"
-
     # 提取图片/描述等字段（可选）
     posts_array = parsed.dig("data", "hashtag", "edge_hashtag_to_media", "edges") || []
     simplified_posts = posts_array.map do |edge|
@@ -33,11 +30,6 @@ def fetch_instagram_posts(tag)
     end
 
     puts "\n✅ 提取成功: #{simplified_posts.size} 条 Post"
-    puts JSON.pretty_generate(simplified_posts[0..2])  # 示例显示前3条，避免太长
-
-    # 保存原始返回数据
-    File.write("instagram_raw_#{tag}_posts.json", JSON.pretty_generate(parsed))
-    puts "\n📦 原始数据已保存为 instagram_raw_#{tag}_posts.json"
 
     # 保存简化后的数据
     File.write("instagram_#{tag}_posts.json", JSON.pretty_generate(simplified_posts))
@@ -51,5 +43,5 @@ def fetch_instagram_posts(tag)
 end
 
 # 使用举例：
-tag = "funnymemes"
+tag = "cat"
 fetch_instagram_posts(tag)

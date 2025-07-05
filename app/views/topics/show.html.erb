@@ -1,16 +1,31 @@
 <%= render 'layouts/navbar' %>
 
 <h2 style="text-align: center;">话题#<%= @topic.name %> 的内容</h2>
+<button onclick="location.href='<%= topic_broadcast_fake_post_path(@topic.name) %>'">
+  模拟广播一条新帖子
+</button>
 
 <div style="display: flex; flex-direction: column; align-items: center;">
   <% if @paginated_posts.present? %>
     <% @paginated_posts.each do |post| %>
-        <div style="margin: 16px 0; text-align: center; max-width: 500px;">
-        <%= image_tag("/proxy/image?url=#{CGI.escape(post.image_url)}") if post.image_url.present? %>
-        <strong><%= post.username %></strong><br>
-        <p><%= post.caption %></p>
-        <small><%= post.timestamp %></small>
-      </div>
+        <div class="post-container">
+          <div class="post-header">
+            <span class="post-username">user: <%= post.username %></span>
+            <span class="post-time"><%= post.timestamp.in_time_zone('Beijing').strftime('%Y-%m-%d %H:%M:%S') %>
+</span>
+          </div>
+
+          <div class="post-caption">
+            <p><%= post.caption %></p>
+          </div>
+
+          <% if post.image_url.present? %>
+            <div class="post-image">
+              <%= image_tag("/proxy/image?url=#{CGI.escape(post.image_url)}", alt: "post image") %>
+            </div>
+          <% end %>
+        </div>
+
     <% end %>
   <% else %>
     <p>暂无内容，请检查话题或稍后再试。</p>
@@ -27,5 +42,9 @@
   <% end %>
 </div>
 
-<!-- 可选：调试数据 -->
-<%= debug @paginated_posts %>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    subscribeToTopic("<%= @topic.name %>");
+  });
+</script>
